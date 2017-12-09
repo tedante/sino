@@ -12,7 +12,7 @@
                 <div class="panel-heading">Login</div>
 
                 <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="{{ site_url('LoginController/login') }}">
+                    <form class="form-horizontal" method="POST" action="{{ site_url('LoginController/loginProccess') }}">
 
                         <div class="form-group">
                             <label for="ni" class="col-md-4 control-label">Nomor Induk</label>
